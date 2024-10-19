@@ -23,8 +23,9 @@ This project is an **Instagram Followers Scraper** built using `Selenium` and Py
 1. **Clone the repository**:
 
     ```bash
-    git clone https://github.com/yourusername/instagram-followers-scraper.git
-    cd instagram-followers-scraper
+    git clone https://github.com/darth-divyansh/Instagram_Followers-SS.git
+    cd Instagram_Followers-SS
+
     ```
 
 2. **Install dependencies**:
