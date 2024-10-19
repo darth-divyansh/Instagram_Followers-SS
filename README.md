@@ -1,6 +1,6 @@
 # Instagram Followers Scraper
 
-This project is an **Instagram Followers Scraper** built using `Selenium` and Python. It automates the process of logging into Instagram, visiting user profiles, and taking screenshots of their followers list. The script supports scraping multiple users and saves screenshots of followers lists into corresponding folders for each target user.
+This project is an **Instagram Followers Scraper** built using `Selenium` and Python. It automates the process of logging into Instagram, visiting user profiles, and taking screenshots of their followers list. The script supports scraping multiple users and saves screenshots of followers and following lists into corresponding folders for each target user.
 
 ## Features
 
