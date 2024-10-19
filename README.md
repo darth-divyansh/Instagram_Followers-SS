@@ -39,8 +39,10 @@ This project is an **Instagram Followers Scraper** built using `Selenium` and Py
     The `requirements.txt` should include:
     
     ```txt
-    selenium
-    webdriver-manager
+    python-decouple
+    selenium==4.0.0
+    webdriver_manager
+
     ```
 
 3. **Setup ChromeDriver**:
@@ -81,6 +83,11 @@ This project is an **Instagram Followers Scraper** built using `Selenium` and Py
 - **Instagram Rate Limits**: Be mindful of Instagram's rate limits to avoid getting temporarily banned for suspicious activity.
 - **Login Issues**: If Instagram changes its login flow, you might need to update the login-related XPath or CSS Selectors.
 - **Headless Mode**: The script is currently not running in headless mode for debugging purposes. You can uncomment the `options.add_argument("--headless")` line in the `scrape()` function to enable it.
+
+##What is the NEED of this Code ?
+
+During investigations, a tool that automatically captures and documents social media data—posts, messages, followers, and account info—could help generate detailed, error-free reports. This would streamline the process and allow examiners to print relevant screenshots as needed.
+
 
 ## License
 
