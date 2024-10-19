@@ -84,7 +84,7 @@ This project is an **Instagram Followers Scraper** built using `Selenium` and Py
 - **Login Issues**: If Instagram changes its login flow, you might need to update the login-related XPath or CSS Selectors.
 - **Headless Mode**: The script is currently not running in headless mode for debugging purposes. You can uncomment the `options.add_argument("--headless")` line in the `scrape()` function to enable it.
 
-##What is the NEED of this Code ?
+## What is the NEED of this Code ?
 
 During investigations, a tool that automatically captures and documents social media data—posts, messages, followers, and account info—could help generate detailed, error-free reports. This would streamline the process and allow examiners to print relevant screenshots as needed.
 
