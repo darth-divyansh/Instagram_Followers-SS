@@ -28,6 +28,11 @@ This project is an **Instagram Followers Scraper** built using `Selenium` and Py
 
     ```
 
+**NOTE**: It’s highly recommended to use a virtual environment for managing dependencies. 
+  ```bash
+   python -m venv {your_virtual_environment_name}
+  ```
+
 2. **Install dependencies**:
 
     Install the required dependencies using `pip`:
