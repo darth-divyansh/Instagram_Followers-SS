@@ -33,6 +33,19 @@ This project is an **Instagram Followers Scraper** built using `Selenium` and Py
    python -m venv {your_virtual_environment_name}
   ```
 
+**Activate the virtual environment**
+***On Windows***:
+
+  ```bash
+{your_virtual_environment_name}\Scripts\activate
+  ```
+***On macOS/Linux***:
+
+  ```bash
+source {your_virtual_environment_name}/bin/activate
+  ```
+After activation, you will see the environment name appear in your terminal, indicating that the environment is active.
+
 2. **Install dependencies**:
 
     Install the required dependencies using `pip`:
