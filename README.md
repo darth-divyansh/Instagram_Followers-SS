@@ -42,7 +42,7 @@ This project is an **Instagram Followers Scraper** built using `Selenium` and Py
     python-decouple
     selenium==4.0.0
     webdriver_manager
-
+    streamlit
     ```
 
 3. **Setup ChromeDriver**:
@@ -52,7 +52,7 @@ This project is an **Instagram Followers Scraper** built using `Selenium` and Py
 4. **Run the script**:
 
     ```bash
-    python instagram_scraper.py
+    streamlit run app.py
     ```
 
 ## Usage
@@ -60,7 +60,6 @@ This project is an **Instagram Followers Scraper** built using `Selenium` and Py
 1. **Enter Instagram Credentials**:
 
    - If running the script for the first time, you will be prompted to enter your Instagram username and password.
-   - These credentials will be saved to a `credentials.txt` file for future use.
 
 2. **Specify Screenshot Count**:
 
@@ -68,12 +67,10 @@ This project is an **Instagram Followers Scraper** built using `Selenium` and Py
 
 3. **Enter Instagram Usernames**:
 
-   - Provide the usernames of the Instagram profiles you'd like to scrape, separated by commas.
+   - Provide the usernames of the Instagram (Public) profiles other than the one you provided the credentials for you'd like to scrape, separated by commas.
 
 ## Script Overview
 
-- **`save_credentials(username, password)`**: Saves credentials in `credentials.txt`.
-- **`load_credentials()`**: Loads saved credentials from the file.
 - **`login(bot, username, password)`**: Logs into Instagram using the provided credentials.
 - **`scrape_followers(bot, username, user_input)`**: Scrapes followers of the given Instagram user and takes screenshots.
 - **`scrape()`**: Main function that loads credentials, logs into Instagram, and scrapes followers for all specified usernames.
